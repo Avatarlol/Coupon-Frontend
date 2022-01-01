@@ -1,0 +1,52 @@
+.header{
+
+    color:white;
+    text-align: center;
+    background-color: red;
+
+    height: 200px;
+    width: auto;
+
+    position:relative;
+
+}
+
+.header div{
+
+    background-color: rgb(49, 0, 0);
+    float: left;
+
+    width: 100px;
+    height: 100px;
+
+    position: relative;
+    top:25%;
+    left: 5%;
+
+    margin-left: 20px;
+    padding-top:40px;
+    
+
+}
+
+#login{
+    
+    width: 200px;
+
+    background-color: rgb(12, 53, 0);
+    
+    position: relative;
+    
+    float:right;
+    left:-5%;
+    
+    padding-top: 15px;
+
+}
+
+#logo{
+
+    background-color: rgb(0, 0, 88);
+    color: orange;
+
+}

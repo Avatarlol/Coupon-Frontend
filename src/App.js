@@ -3,6 +3,7 @@ import { useSelector , useDispatch} from 'react-redux';
 
 import { createStore } from 'redux';
 import { increment , decrement } from './actions'
+import Header from './components/header/Header';
 
 
 function App() {
@@ -13,11 +14,13 @@ function App() {
 
   return (
     <React.Fragment>
-
+    <Header/>
+    
     <button onClick={() => dispatch(decrement())}>-</button>
     Counter:{counter}
     <button onClick={() => dispatch(increment())}>+</button>
     
+    {/* <Footer/> */}
     </React.Fragment>
   );
 }
